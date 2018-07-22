@@ -9,4 +9,4 @@ def hello_t(array)
 end
 # call your method here!
 
-hello_t([1,2,3])
+hello_t([1,2,3]){ }
