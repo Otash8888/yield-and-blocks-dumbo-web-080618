@@ -8,3 +8,5 @@ def hello_t(array)
   array
 end
 # call your method here!
+
+hello_t([1,2,3])
