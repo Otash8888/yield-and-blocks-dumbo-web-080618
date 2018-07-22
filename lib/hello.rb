@@ -1,12 +1,15 @@
 def hello_t(array)
-  i = 0
- 
-  while i < array.length
+  if block_given?
+    i = 0
+    while i < array.length
     yield array[i]
     i = i + 1
-  end
-  array
+    end
+    array
+ else
+    
+  end 
+    
 end
 # call your method here!
 
-hello_t([1,2,3]){ }
